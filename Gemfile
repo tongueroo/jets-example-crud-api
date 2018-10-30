@@ -1,11 +1,8 @@
 source "https://rubygems.org"
 
 gem "jets"
-
-
-# Include pg gem if you are using ActiveRecord, remove if you are not
-gem "pg", "~> 0.21"
-
+# Include mysql2 gem if you are using ActiveRecord, remove if you are not
+gem "mysql2", "~> 0.5.2"
 gem "mimemagic"
 
 group :development, :test do
